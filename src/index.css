@@ -1,0 +1,48 @@
+body{
+  background-color: whitesmoke;
+}
+
+.container{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  box-shadow: 5px 5px 5px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+.displayContainer{
+  border: 3px solid grey;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  transition: .3s ease;
+}
+
+.displayContainer p{
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.displayContainer button{
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.displayContainer button:hover{
+  background-color: hsl(0, 0%, 80%);
+}
+
+input[type="color"]{
+  border: 3px gray solid;
+  margin: 2px;
+  border-radius: 5px;
+  padding: 0px;
+}
